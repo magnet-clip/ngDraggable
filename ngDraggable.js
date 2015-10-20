@@ -240,7 +240,7 @@ angular.module("ngDraggable", [])
 
                 var reset = function() {
                     if(allowTransform)
-                        element.css({transform:'', 'z-index':'', '-webkit-transform':'', '-ms-transform':''});
+                        element.css({transform:'', 'z-index':'', '-webkit-transform':'', '-ms-transform':'', 'position':''});
                     else
                         element.css({'position':'',top:'',left:''});
                 };
